@@ -1,0 +1,31 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+h1 {
+	margin: 10px;
+	height: 80px;
+	background-color: blueviolet;
+	border-radius: 10px;
+	padding: 20px;
+	text-align: center;
+}
+
+.content {
+	margin: 10px;
+	list-style-type: none;
+	border-radius: 10px;
+	padding: 10px;
+	display: flex;
+}
+
+.content li {
+	margin: auto;
+	padding: 10px;
+	border: 2px solid green;
+}
+.content li:hover {
+	background-color: pink;
+}
